@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cairo d'avila</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="https://kit.fontawesome.com/d50d8c6513.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="cursor"></div>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="img/cairo. r novo svg branco.svg" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>hi, i'm <span class="name">cairo.</span></p>
+        </div>
+    </div>
+</div>
+<!-------------about-------------->  
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/luma perfil.jpg" alt="an image of myself">
+                <p id="luma">RIP Luma ❤ </p>
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">a little bit about me.</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, nesciunt, corporis ut perferendis dolor modi rem error sapiente illo debitis sequi mollitia provident nihil nulla cumque fugit corrupti? Modi, recusandae.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">experience</p>
+                    <p class="tab-links" onclick="opentab('education')">education</p>
+                </div> 
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>design</span><br>one skill I have.</li>
+                        <li><span>marketing</span><br>one skill I have.</li>
+                        <li><span>coding</span><br>one skill I have.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - current</span><br>unemployed freelancer.</li>
+                        <li><span>2020 - 2022</span><br>D&E Entretenimento.</li>
+                        <li><span>2020 - 2020</span><br>Amazonas Decorações.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - 2025</span><br>Marketing and Advertisement (Publicidade e Propaganda) at Estácio.</li>
+                        <li><span>2019 - 2020</span><br>Computer Science (Ciências da Computação) at Centro Universitário Farias Brito.</li>
+                        <li><span>2018 - 2019</span><br>Foreign Commerce (Comércio Exterior) at Universidade de Fortaleza.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------services-------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">what i do.</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-palette"></i>
+                <h2>design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, velit.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-people-group"></i>
+                <h2>marketing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, velit.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>coding</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, velit.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-music"></i>
+                <h2>ALSO...</h2>
+                <p>i'm a musician. check out my projects and listen to my EP on streaming platforms</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------portfolio----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">my work.</h1>
+        <div class="work-list">
+            <div class="work">
+                <a href="https://www.behance.net/gallery/137931731/Ian-Valadares-Branding" target="_blank">
+                    <img src="https://mir-s3-cdn-cf.behance.net/projects/404/69b2b5137931731.Y3JvcCw4MDgsNjMyLDAsMA.png" alt="work 1">
+                </a>    
+                <div class="layer">    
+                    <h2>work 1</h2>  
+                </div>  
+            </div>
+            <div class="work">
+                <a href="https://www.behance.net/gallery/129562669/Doope-ID-Visual" target="_blank">
+                    <img src="https://mir-s3-cdn-cf.behance.net/projects/404/53cdf1129562669.Y3JvcCw4MDgsNjMyLDAsMA.png" alt="work 2" class="parallax-image">
+                </a>    
+                <div class="layer">    
+                    <h2>work 2</h2>
+                
+                </div>    
+            </div>
+            <div class="work">
+                <a href="https://www.behance.net/gallery/132767195/Carnaval-2022-Arena-de-Iracema-ID-Visual" target="_blank">
+                    <img src="https://mir-s3-cdn-cf.behance.net/projects/404/c11f8c132767195.Y3JvcCw4MDgsNjMyLDAsMA.png" alt="work 3">
+                </a>
+                <div class="layer">    
+                    <h2>work 3</h2>
+                </div>   
+            </div>
+        </div>
+        <a href="#" class="btn">view more</a>
+    </div>
+</div>
+<!-----------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">get in touch.</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>oiekoik@pm.me</p>
+                <p><i class="fa-brands fa-whatsapp"></i>+55 85 99980-4564</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/caaiiro" target="_blank" class="icon-container"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/caaiiro/" target="_blank" class="icon-container"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://behance.net/caaiiro" target="_blank" class="icon-container"><i class="fa-brands fa-behance"></i></a>
+                </div>
+                <a href="img/curriculum-vitae-english---cairo-davila.pdf" download class="btn btn2">download cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                    <textarea name="message" rows="6" placeholder="what do you want to tell me?"></textarea>
+                    <button type="submit" class="btn btn2">send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © cairo d'avila. made in <img src="img/Flag_of_Brazil.svg" class="brazil" alt="SVG Image">  </p>
+    </div>
+</div>
+
+<script src="./scripts/main.js"></script>
+</body>
+</html>
